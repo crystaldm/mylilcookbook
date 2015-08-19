@@ -1,1 +1,42 @@
-/* Empty. Add your own CSS if you like */
+/*****************************
+*************** MOBILE STYLES
+*****************************/
+
+/* wrapper */
+.content-wrapper {
+	padding: 1em;
+}
+
+/* header */
+.bar-stable {
+	width: 100%;
+}
+
+#favorites {
+	color: #EE674F;
+	border: thin solid #EE674F;
+}
+
+h2 {
+	color: #96C93C;
+}
+
+/* images */
+#meals img, #snacks img, #treats img {
+	width:100%;
+}s
+
+/***************************************
+*************** TABLET STYLES LANDSCAPE
+***************************************/
+@media screen and (min-width: 450px) {
+
+	#meals {
+		width:100%;
+	}
+
+	#meals img, #snacks img, #treats img {
+		width: 24.7%;
+	}
+
+}
