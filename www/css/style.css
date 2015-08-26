@@ -13,8 +13,10 @@
 }
 
 #favorites {
-	color: #EE674F;
+	color: #fff;
 	border: thin solid #EE674F;
+	border-radius: 100%;
+	background-color: #EE674F;
 }
 
 h2 {
@@ -24,19 +26,27 @@ h2 {
 /* images */
 #meals img, #snacks img, #treats img {
 	width:100%;
-}s
+}
 
 /***************************************
 *************** TABLET STYLES LANDSCAPE
 ***************************************/
-@media screen and (min-width: 450px) {
+@media screen and (min-width: 800px) {
 
-	#meals {
-		width:100%;
+	#meals, #snacks {
+		margin-bottom:1.5em;
 	}
 
 	#meals img, #snacks img, #treats img {
 		width: 24.7%;
+	}
+
+	.captions {
+		margin: 0;
+		padding: 0;
+		font-size: .8em;
+		display: block;
+		width:24.7%;
 	}
 
 }
